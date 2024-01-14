@@ -38,7 +38,7 @@ UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/mukeshmoni/Mariyan22",
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "orgin")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
