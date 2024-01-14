@@ -53,7 +53,7 @@ async def init():
     await Vishnu.start()
     try:
         await Vishnu.stream_call(
-            "https://telegra.ph/file/8d5db123638c2f6bb6ce4.mp4"
+            "https://telegra.ph/file/53b1334247267bd359e84.mp4"
         )
     except NoActiveGroupCall:
         LOGGER("Mariyan").error(
