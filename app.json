@@ -15,12 +15,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "27202003",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "",
+        "value": "fdb166de7448c401832ddffdcb7f2b01",
         "required": true
       },
       "AUTO_LEAVING_ASSISTANT": {
@@ -30,18 +30,18 @@
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "",
+        "value": "6794158299:AAEEQcewNr-pvMM4akOqIlxSsjQarNFGVxI",
         "required": true
       },
       "DURATION_LIMIT_MIN": {
         "description": "Maximum duration that your bot can play in minutes.",
-        "value": "90",
+        "value": "9000000000000000000000000000000000000",
         "required": true
       },
       "MONGO_DB_URI": {
         "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "",
-        "required": false
+        "value": "mongodb+srv://Fahafxdddddddd:123456789afzal@cluster0.bwtspry.mongodb.net/?retryWrites=true&w=majority",
+        "required": true
       },
       "AUTO_DOWNLOADS_CLEAR": {
         "description": "Fill True if you want to automatically clear the downloaded files after playing.",
@@ -50,8 +50,8 @@
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. You can use special characters bot ko jhaat farak ni padega",
-        "value": "",
-        "required": false
+        "value": "⋆💛𝐘᤻ 𖽞ͥ͜𖾘ⷨ𝐥𖽙𖽮⃨␞ꫬ⋆᮫⃬⃛⎯⃪⎯ 💋",
+        "required": true
       },
       "SPOTIFY_CLIENT_ID": {
         "description": "Spotify Client Id",
@@ -65,23 +65,23 @@
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "",
+        "value": "6396536717",
         "required": true
       },
       "STRING_SESSION": {
         "description": "A Pyrogram String Session. One Assistant is Compulsory.",
-        "value": "",
+        "value": "BQCEQSzViUP0EkP8_Zz8rxBiTPnWSu9dpVhkosJSz-ev7l0NDMJkVKJ7BN4g3xXE7SgzUo0ZJnBvWorV7I-Y1ZROy85rvIjG_CNN8ZOkRWEhoYkVYzIq2tBq5c3nuiZ0Zbj0L21OD2nR-0deNsKHIVtSGCY1qy2MV7qEVGcx7szE5fqC1LGBzx7XtAJpdpdZ2jtxO171iTuj2Bv0m2o299WL78U1mBqWF4u8IbtNLlfMjbIN5x3LgBIOo2vVeGtXNUUIho9-5s8A0EEbQrIWrobCUMaTupo9FuROrj9vrSCUlV839d2RlcAOxV2eoIf6Dp9T94V1sYTbP7v0v4GgDN3tAAAAAX1DZ40A",
         "required": true
       },
       "PING_IMG_URL": {
         "description": "The pic which will be shown when you give the /ping cmd to the bot.",
-        "value": "",
-        "required": false
+        "value": "https://telegra.ph/file/40edb2ec768733ed782dd.jpg",
+        "required": true
       },
       "START_IMG_URL": {
         "description": "The pic which will be shown when you /start the bot in private.",
-        "value": "",
-        "required": false
+        "value": "https://telegra.ph/file/03d49191400d9da71bec4.jpg",
+        "required": true
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku account's API key",
@@ -95,18 +95,18 @@
       },
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
-        "value": "",
+        "value": " -1002051435596",
         "required": true
       },
       "SUPPORT_GROUP": {
         "description": "Link of your support group ! Channel ki id mat daal dena bsdk.",
-        "value": "",
-        "required": false
+        "value": "https://t.me/rachasi_music",
+        "required": true
       },
       "SUPPORT_CHANNEL": {
         "description": "Link of your telegram channel.",
-        "value": "",
-        "required": false
+        "value": "https://t.me/rachasi_music",
+        "required": true
       }
     },
     "buildpacks": [
