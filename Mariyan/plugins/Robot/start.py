@@ -9,18 +9,18 @@ import config
 from config import BANNED_USERS
 from config.config import OWNER_ID
 from strings import get_command, get_string
-from Mariyan import Telegram, YouTube, app
-from Mariyan.misc import SUDOERS
-from Mariyan.plugins.Robot.playlist import del_plist_msg
-from Mariyan.plugins.Robot.sudoers import sudoers_list
-from Mariyan.utils.database import (add_served_chat,
+from VishnuX import Telegram, YouTube, app
+from VishnuX.misc import SUDOERS
+from VishnuX.plugins.Robot.playlist import del_plist_msg
+from VishnuX.plugins.Robot.sudoers import sudoers_list
+from VishnuX.utils.database import (add_served_chat,
                                        add_served_user,
                                        blacklisted_chats,
                                        get_assistant, get_lang,
                                        get_userss, is_on_off,
                                        is_served_private_chat)
-from Mariyan.utils.decorators.language import LanguageStart
-from Mariyan.utils.inline import (help_pannel, private_panel,
+from VishnuX.utils.decorators.language import LanguageStart
+from VishnuX.utils.inline import (help_pannel, private_panel,
                                      start_pannel)
 
 loop = asyncio.get_running_loop()
@@ -39,7 +39,7 @@ async def start_comm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = help_pannel(_)
-            await message.reply_sticker("CAACAgUAAxkBAAEJSahkho9v-jCh9JzrHs04jIjBEBoPMQAClAwAAgf7MFQfuxirE9ViPC8E")
+            await message.reply_sticker("CAACAgUAAxkBAAELMLNlpjH76NMNVysGWvn6-xWInInjuQACQQ8AAr7bOVWdPCVRUOnvDjQE")
             return await message.reply_photo(
                        photo=config.START_IMG_URL,
                        caption=_["help_1"].format(config.SUPPORT_HEHE), reply_markup=keyboard
@@ -188,7 +188,7 @@ async def start_comm(client, message: Message, _):
         out = private_panel(_, app.username, OWNER)
         if config.START_IMG_URL:
             try:
-                await message.reply_sticker("CAACAgUAAxkBAAEJSahkho9v-jCh9JzrHs04jIjBEBoPMQAClAwAAgf7MFQfuxirE9ViPC8E")
+                await message.reply_sticker("CAACAgUAAxkBAAELMLNlpjH76NMNVysGWvn6-xWInInjuQACQQ8AAr7bOVWdPCVRUOnvDjQE")
                 await message.reply_photo(
                     photo=config.START_IMG_URL,
                     caption=_["start_2"].format(
