@@ -10,24 +10,24 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🥺 ➕ADD ME IN GROUP BABY 🥺",
+                text="⚡ 𝐀ᴅᴅ 𝐌𖾔 𝐓𖽙 𝐘ᴏ𝞄૨ 𝐁𖽖𐌱ᵧ 🌟",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="ʜᴇʟᴩ",
+                text="💋 𝐇𖽞𖾘𖽳 😼",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="sᴇᴛᴛɪɴɢs", callback_data="settings_helper"
+                text="🌟𝐒𖽞𖾓𖾓ᛧ𖾚ꞔ𖾗⚡", callback_data="settings_helper"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="ᴍᴀɪɴᴛᴀɪɴᴇʀ", user_id=OWNER),
+                text="🌟𝐌𖽖𖽹𖽨𖾓𖽖ᛧ𐬜𖽞𖽸❤️‍🩹", user_id=OWNER),
             InlineKeyboardButton(
-                text="sᴜᴩᴩᴏʀᴛ", url=f"{config.SUPPORT_GROUP}"
+                text="⚡𝐒𖽪𖽳𖽳𖽙𖽸𖾓💛", url=f"{config.SUPPORT_GROUP}"
             ),
         ],
      ]
@@ -38,24 +38,24 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🥺 ➕ADD ME TO YOUR GROUP 🥺",
+                text="⚡ 𝐀ᴅᴅ 𝐌𖾔 𝐓𖽙 𝐘ᴏ𝞄૨ 𝐆𖽸𖽙𖽪𐌛 🌟",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="ʜᴇʟᴩ", callback_data="settings_back_helper"
+                text="❤️‍🩹𝐇𖽞𖾘𖽳😼", callback_data="settings_back_helper"
             ),
         ],
         [
             InlineKeyboardButton(text="ᴍᴀɪɴᴛᴀɪɴᴇʀ", user_id=OWNER),
             InlineKeyboardButton(
-                text="sᴜᴩᴩᴏʀᴛ", url=f"{config.SUPPORT_GROUP}"
+                text="⚡𝐒𖽪𖽳𖽳𖽙𖽸𖾓👑", url=f"{config.SUPPORT_GROUP}"
             ),
         ],
         [
             InlineKeyboardButton(
-                    text="sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ", url=f"{config.UPSTREAM_REPO}"
+                    text="🌟𝐒𖽙𖽪𖽸𖽽𖽞 𝐂𖽙𖽴𖽞💋", url=f"{config.UPSTREAM_REPO}"
                 )
         ],
      ]
