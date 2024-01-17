@@ -59,11 +59,11 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="⚡ 𝚳𖽞𖽡𖽪💋 ",
+                text="⚡𝚳𖽞𖽡𖽪💋 ",
                 callback_data=f"PanelMarkup {videoid}|{chat_id}",
             ),
             InlineKeyboardButton(
-                text="💋 𝚶𖽮𖽡𖽞𖽸🌟 ", url=f"https://t.me/Adity144"
+                text="💋𝚶𖽮𖽡𖽞𖽸🌟", url=f"https://t.me/Adity144"
             )
         ],
         [
@@ -301,11 +301,11 @@ def panel_markup_1(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="❤️‍🩹𝐏𖾘𖽖ᵧ𝐥ᵢ𖾗𖾓𖾗😼",
+                text= "❤️‍🩹𝐏𖾘𖽖ᵧ𝐥ᵢ𖾗𖾓𖾗😼",
                 callback_data=f"add_playlist {videoid}",
             ),
             InlineKeyboardButton(
-                text="⚡𝛅𖽪𖽳𖽳𐌏𖽸𖾓💋",
+                text= "⚡𝛅𖽪𖽳𖽳𐌏𖽸𖾓💋",
                 url=f"{config.SUPPORT_GROUP}",
             ),
         ],
